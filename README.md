@@ -7,20 +7,19 @@ Graph datasets and links to software used in [1], for the evaluation of whole gr
 ### Data description
 
 #### Synthetic datasets
-1. LFR:  
-The [LFR.zip](GraphData/Synthetic/LFR.zip) dataset was generated in [3], using the Lancichinetti–Fortunato–Radicchi (LFR) benchmark method with mixing parameters (μ) 0.1 and 0.5. Originally downloaded from https://github.com/leoguti85/GraphEmbs.<br />
+1. LFR networks: <br /> The [LFR.zip](GraphData/Synthetic/LFR.zip) dataset was generated in [3], using the Lancichinetti–Fortunato–Radicchi (LFR) benchmark method with mixing parameters (μ) 0.1 and 0.5. Originally downloaded from https://github.com/leoguti85/GraphEmbs.<br />
 #classes = 2,  #graphs = 1600 (600 with 0.1μ - class1 and 1000 with 0.5μ - class2),  #nodes = 81.
 	
-2. MREG: 
+2. MREG networks: <br />
 The [MREG.zip](GraphData/Synthetic/MREG.zip) was generated using the Multiple Random Eigen Graphs (MREG) model defined in [4].<br />
 #classes = 3,  #graphs = 300 (100 in each class, graphJE_1 to 100 - class1, graph_JE101 to 200 - class2 and graph_JE201 to 300 - class2),  #nodes = 100
    
 #### Real-world datasets
-1. Kidney Metabolic networks:
+1. Kidney Metabolic networks:<br />
 The [KidneyMetabolic.zip](GraphData/Real/KidneyMetabolic.zip) file contains metabolic networks of 299 Kidney cancer samples (TCGA-KIRC and TCGA-KIRP) [2].<br />
 #classes = 3,  #graphs = 299 (159 clear cell Renal Cell Carcinoma - class1, 90 Papillary Renal Cell Carcinoma - class2 and  50 solid tissue normal samples - class3),  #nodes = 1034.
 
-2. Brain fMRI networks:
+2. Brain fMRI networks:<br />
 The [BrainfMRI.zip](GraphData/Real/BrainfMRI.zip) file contains 124 brain fMRI networks of healthy control and schizophrenia subjects.
 In this dataset, the edges between the nodes represent the positively correlated brain regions. For both positively and negtively correlated edges please visit the original source of this dataset: https://github.com/jesusdaniel/graphclass, where the authors provide an R package along with the COBRE dataset.<br />
 #classes = 2,  #graphs = 124 (70 controls - class1 and 54 schizophrenia subjects - class2),  #nodes = 263.
