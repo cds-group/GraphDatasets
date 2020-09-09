@@ -8,25 +8,25 @@ Graph datasets and links to software used in [1], for the evaluation of whole gr
 
 #### Synthetic datasets
 1. LFR:  
-The [LFR.zip](GraphDatasets/GraphData/Synthetic/LFR.zip) dataset was generated in [3], using the Lancichinetti–Fortunato–Radicchi (LFR) benchmark method with mixing parameters (μ) 0.1 and 0.5. Originally downloaded from https://github.com/leoguti85/GraphEmbs.<br />
+The [LFR.zip](GraphData/Synthetic/LFR.zip) dataset was generated in [3], using the Lancichinetti–Fortunato–Radicchi (LFR) benchmark method with mixing parameters (μ) 0.1 and 0.5. Originally downloaded from https://github.com/leoguti85/GraphEmbs.<br />
 #classes = 2,  #graphs = 1600 (600 with 0.1μ - class1 and 1000 with 0.5μ - class2),  #nodes = 81.
 	
 2. MREG: 
-The [MREG.zip](GraphDatasets/GraphData/Synthetic/MREG.zip) was generated using the Multiple Random Eigen Graphs (MREG) model defined in [4].<br />
+The [MREG.zip](GraphData/Synthetic/MREG.zip) was generated using the Multiple Random Eigen Graphs (MREG) model defined in [4].<br />
 #classes = 3,  #graphs = 300 (100 in each class, graphJE_1 to 100 - class1, graph_JE101 to 200 - class2 and graph_JE201 to 300 - class2),  #nodes = 100
    
 #### Real-world datasets
 1. Kidney Metabolic networks:
-The [KidneyMetabolic.zip](GraphDatasets/GraphData/Real/KidneyMetabolic.zip) file contains metabolic networks of 299 Kidney cancer samples (TCGA-KIRC and TCGA-KIRP) [2].<br />
+The [KidneyMetabolic.zip](GraphData/Real/KidneyMetabolic.zip) file contains metabolic networks of 299 Kidney cancer samples (TCGA-KIRC and TCGA-KIRP) [2].<br />
 #classes = 3,  #graphs = 299 (159 clear cell Renal Cell Carcinoma - class1, 90 Papillary Renal Cell Carcinoma - class2 and  50 solid tissue normal samples - class3),  #nodes = 1034.
 
 2. Brain fMRI networks:
-The [BrainfMRI.zip](GraphDatasets/GraphData/Real/BrainfMRI.zip) file contains 124 brain fMRI networks of healthy control and schizophrenia subjects.
+The [BrainfMRI.zip](GraphData/Real/BrainfMRI.zip) file contains 124 brain fMRI networks of healthy control and schizophrenia subjects.
 In this dataset, the edges between the nodes represent the positively correlated brain regions. For both positively and negtively correlated edges please visit the original source of this dataset: https://github.com/jesusdaniel/graphclass, where the authors provide an R package along with the COBRE dataset.<br />
 #classes = 2,  #graphs = 124 (70 controls - class1 and 54 schizophrenia subjects - class2),  #nodes = 263.
 
 #### Sample annotation
-The  [DataAnnotation](Data/KidneyData/DataAnnotation.txt) folder contains the sample annotations and graph class labels for all the four datasets.
+The  [DataAnnotation](DataAnnotation) folder contains the sample annotations and graph class labels for all the four datasets.
 
 ### Links to software
 
@@ -53,3 +53,5 @@ https://link.springer.com/article/10.1007/s10472-019-09640-y
 [6] Borgwardt, K.M. and Kriegel, H.P., 2005, November. Shortest-path kernels on graphs. In Fifth IEEE international conference on data mining (ICDM'05) (pp. 8-pp). IEEE. https://www.dbs.ifi.lmu.de/~borgward/papers/BorKri05.pdf
 
 [7] Vishwanathan, S.V.N., Schraudolph, N.N., Kondor, R. and Borgwardt, K.M., 2010. Graph kernels. The Journal of Machine Learning Research, 11, pp.1201-1242. https://www.jmlr.org/papers/volume11/vishwanathan10a/vishwanathan10a.pdf
+
+#### <sup>**</sup>For more graph related work visit our github page [cds-group](https://github.com/cds-group/)
