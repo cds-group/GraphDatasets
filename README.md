@@ -54,4 +54,4 @@ https://link.springer.com/article/10.1007/s10472-019-09640-y
 
 [7] Vishwanathan, S.V.N., Schraudolph, N.N., Kondor, R. and Borgwardt, K.M., 2010. Graph kernels. The Journal of Machine Learning Research, 11, pp.1201-1242. https://www.jmlr.org/papers/volume11/vishwanathan10a/vishwanathan10a.pdf
 
-#### <sup>**</sup>For more graph related work visit our github page [cds-group](https://github.com/cds-group/)
+#### <sup>**</sup>For more graph related work visit our github page at [cds-group](https://github.com/cds-group/)
