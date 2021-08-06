@@ -38,7 +38,8 @@ The  [DataAnnotation](DataAnnotation) folder contains the sample annotations and
    Random walk kernel: https://www.jmlr.org/papers/volume11/vishwanathan10a/vishwanathan10a.pdf [7]<br />
 
 ### References
-[1] Granata, I., Maddalena, L., Manipur, I., Manzo, M. and Guarracino, M.R., On Whole Graph Embedding Techniques, Submitted Manuscript
+[1] Maddalena, L., Manipur, I., Manzo, M. and Guarracino, M.R., 2020, November. On Whole-Graph Embedding Techniques. In International Symposium on Mathematical and Computational Biology (pp. 115-131). Springer, Cham.
+https://link.springer.com/chapter/10.1007/978-3-030-73241-7_8
 
 [2] Granata, I., Guarracino, M.R., Kalyagin, V.A., Maddalena, L., Manipur, I. and Pardalos, P.M., 2020. Model simplification for supervised classification of metabolic networks. Annals of Mathematics and Artificial Intelligence, 88(1), pp.91-104.
 https://link.springer.com/article/10.1007/s10472-019-09640-y
