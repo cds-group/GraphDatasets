@@ -15,8 +15,9 @@ The [MREG.zip](GraphData/Synthetic/MREG.zip) was generated using the Multiple Ra
 #classes = 3,  #graphs = 300 (100 in each class, graphJE_1 to 100 - class1, graph_JE101 to 200 - class2 and graph_JE201 to 300 - class2),  #nodes = 100
    
 #### Real-world datasets
-1. Kidney Metabolic networks:<br />
-The [KidneyMetabolic.zip](GraphData/Real/KidneyMetabolic.zip) file contains metabolic networks of 299 Kidney cancer samples (TCGA-KIRC and TCGA-KIRP) [2].<br />
+1. Kidney Metabolic networks:<br /> 
+This file is available on request.
+The file contains metabolic networks of 299 Kidney cancer samples (TCGA-KIRC and TCGA-KIRP) [2].<br />
 #classes = 3,  #graphs = 299 (159 clear cell Renal Cell Carcinoma - class1, 90 Papillary Renal Cell Carcinoma - class2 and  50 solid tissue normal samples - class3),  #nodes = 1034.
 
 2. Brain fMRI networks:<br />
